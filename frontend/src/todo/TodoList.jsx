@@ -6,8 +6,6 @@ export default props => {
     const renderRows = () => {
         const list = props.list || []
 
-        console.log(props.list)
-
         return list.map(todo => (
             <tr key={todo._id}>
                 <td className={todo.done ? 'markedAsDone' : ''}>
