@@ -16,13 +16,13 @@ export default props => {
         <div role='form' className='todoForm'>
             <div className='form-group'>
                 <Grid cols='12 10 10'>
-                    <label for="options">Tarefa:</label>
+                    <label htmlFor="description">Tarefa:</label>
                     <input type="text" id='description' name='description' className='form-control'
                         placeholder='Adicione uma tarefa' value={props.description}
                         onChange={props.handleChange} onKeyUp={keyHandler} />
                 </Grid>
                 <Grid cols='10 2 2 2'>
-                    <label for="options">Ação:</label>
+                    <label htmlFor="options">Tarefa:</label>
                     <div name='options'>
                         <IconButton style='primary' icon='plus' onClick={props.handleAdd} />
                         <IconButton style='info' icon='search' onClick={props.handleSearch} />
