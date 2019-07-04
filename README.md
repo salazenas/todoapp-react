@@ -1,2 +1,2 @@
 # todoapp-react
-TodoApp developed with React, Node, Express and more.
+TodoApp developed with React, Redux, Node, Express and more.
